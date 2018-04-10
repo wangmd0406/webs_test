@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+		width: 100%;
+		height: 6789px;
+		background-image: url(../images/慕课网-程序员的梦工厂.png);
+	}
+	.panel_zhezhao{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: #000000;
+		opacity: 0.6;
+		top: 0;
+		left: 0;
+		z-index: 99;
+	}
+	.login{
+	}
+	.login_form{
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 400px;
+		height: 350px;
+		background-color:#fff;
+		opacity: 1;
+		z-index: 100;
+	}
+	.login_form>li{
+		display: inline-block;
+		position: relative;
+	}
+	.login_form .form_log_btn>span,.login_form .form_reg_btn>span{
+		display: block;
+		width: 100px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		text-decoration: none;
+		color: #6B6B6B;
+		border-bottom: 1px solid #BDBDBD;
+		cursor: pointer;
+	}
+	.form_log,.form_reg{
+		position: absolute;
+		width: 400px;
+		height: 410px;
+		display: none;
+		text-align: center;
+		color: #636363;
+		font-size: 14px;
+	}
+	.form_reg{
+		left: -104px;
+	}
+	.login_form>li>span:hover{
+		color: #FF0B0F;
+		border-bottom-color: red;
+	}
+	.form_active{
+		display: block;
+	}
+
+.number,.password{
+	width: 80%;
+	height: 40px;
+	border-radius: 8px;
+	border: none;
+	border: 1px solid #C5C5C5;
+	font-size: 14px;
+	text-indent: 1em;
+}
+.number{
+	margin-top: 20px;
+}
+.form_log p,.form_reg p{
+	display:block;
+	width: 80%;
+	height: 25px;
+	color: red;
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: left;
+	text-indent: 1em;
+	line-height: 25px;
+}
+.remember{
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.remember .span1{
+	float: left;
+}
+.remember .span2 a{
+	float: right;
+	text-decoration: none;
+	color: dimgrey;
+}
+.remember .agree a{
+	float: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.log_btn{
+	display: block;
+	width: 80%;
+	height: 45px;
+	margin: 0 auto;
+	line-height: 45px;
+	font-size: 16px;
+	text-decoration: none;
+	color: aliceblue;
+	border-radius: 20px;
+	background-color:#E71013
+}
+
+.other_log{
+	width: 80%;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+	
